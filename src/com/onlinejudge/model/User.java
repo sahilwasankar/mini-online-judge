@@ -13,4 +13,18 @@ public User (int id, String username, String password , String role) {
     this.password = password;
     this.role = role;
 }  
+
+public int getId(){
+    return id ;
+}
+public String getUsername(){
+    return username;
+}
+public String getPassword(){
+    return password;
+
+}
+public String getRole(){
+    return role;
+}
 }
